@@ -1,0 +1,14 @@
+Make sure to add this
+shrinkResources true
+minifyEnabled true
+
+Sample :-
+
+buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                    'proguard-rules.pro'
+        }
+    }
